@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/delete_record"
+        android:title="Delete selected records" />
+         
+    <item android:id="@+id/show_graph"
+        android:title="Show Graph" />
+    
+    <item android:id="@+id/settings"
+        android:title="Settings" />
+    
+    <item android:id="@+id/about_page"
+        android:title="About Us" />
+    
+    <item android:id="@+id/tips_page"
+        android:title="Energy Tips" />
+   
+ 
+</menu>

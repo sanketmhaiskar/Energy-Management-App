@@ -1,0 +1,83 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smartapps4u.ema"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>    
+
+    <application
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".UserInfo"
+            android:label="@string/title_activity_main" >            
+        </activity>
+        
+        <activity
+            android:name=".BillDetails"
+            android:label="@string/title_activity_main" >            
+        </activity>
+        
+         <activity
+            android:name=".BillDetailsAdapter"
+            android:label="@string/title_activity_main" >            
+        </activity>
+        
+          <activity
+            android:name=".BillDetailsResults"
+            android:label="@string/title_activity_main" >            
+        </activity>
+        
+          <activity
+            android:name=".DatabaseHelper"
+            android:label="@string/title_activity_main" >            
+        </activity>
+        
+          <activity
+            android:name=".BarGraphView"
+            android:label="@string/title_activity_main" >            
+        </activity>
+        
+          <activity
+            android:name=".GraphView"
+            android:label="@string/title_activity_main" >            
+        </activity>
+        
+          <activity
+            android:name=".GraphViewDemo"
+            android:screenOrientation="landscape"
+            android:label="@string/title_activity_main" >            
+        </activity>
+        
+          <activity
+            android:name=".LineGraphView"
+            android:label="@string/title_activity_main" >            
+        </activity>
+        
+           <activity
+            android:name=".AboutPage"
+            android:label="@string/about" >            
+        </activity>
+        
+            <activity
+            android:name=".EnergyTipsPage"
+            android:label="@string/tips" >            
+        </activity>
+                
+    </application>
+
+</manifest>

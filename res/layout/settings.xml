@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/txtvw_individuals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no_individuals"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/spinner_individuals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtvw_individuals"
+            android:layout_below="@+id/txtvw_individuals"
+            android:paddingTop="2dp"
+            android:prompt="@string/select_people" />
+
+        <Button
+            android:id="@+id/save_btn"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/spinner_individuals"
+            android:layout_below="@+id/spinner_individuals"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="28dp"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/save_btn"
+            android:layout_alignBottom="@+id/save_btn"
+            android:layout_alignRight="@+id/txtvw_individuals"
+            android:layout_marginRight="47dp"
+            android:text="Cancel" />
+
+    </RelativeLayout>

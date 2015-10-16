@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:orientation="vertical">
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="281dp"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <TextView
+            android:id="@+id/txtvw_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:text="@string/month"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:paddingTop="2dp" >
+            
+            <Spinner
+                        android:id="@+id/spinner_month"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"                       
+                        android:prompt="@string/select_month" />
+
+              <EditText
+                  android:id="@+id/edttxt_year"
+                  android:layout_width="140dp"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentTop="true"
+                  android:layout_marginLeft="25dp"
+                  android:layout_toRightOf="@+id/spinner_month"
+                  android:ems="10"
+                  android:hint="@string/year"
+                  android:inputType="number" >
+
+                  <requestFocus />
+              </EditText>
+            
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/txtvw_consumption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:text="@string/elec_cons"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+        <EditText
+            android:id="@+id/edttxt_consumption"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:paddingTop="2dp" />
+
+
+        <TextView
+            android:id="@+id/txtvw_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:text="@string/cost_bill"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+
+         <EditText
+             android:id="@+id/edttxt_cost"
+             android:layout_width="100dp"
+             android:layout_height="wrap_content"
+             android:ems="10"
+             android:inputType="number"
+             android:paddingTop="2dp" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="103dp" >
+
+    <Button
+        android:id="@+id/btn_takepic"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="28dp"
+        android:text="@string/take_picture" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btn_takepic"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/btn_takepic"
+        android:text="@string/submit" />
+
+</RelativeLayout>
+
+    </LinearLayout>

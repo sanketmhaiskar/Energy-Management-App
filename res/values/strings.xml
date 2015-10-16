@@ -1,0 +1,39 @@
+<resources>
+
+    <string name="app_name">Energy Management App</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Energy Management App</string>
+    <string name="no_individuals">Enter the number of individuals in your household: </string>
+	<string name="elec_cons">Enter electricity consumption          (in kWh): </string>
+   	<string name="cost_bill">Cost of bill (in INR):</string>
+   	<string name="take_picture">Click a picture of the bill</string>
+   	<string name="submit">Submit the info.</string>
+   	<string name="month">Select the month and year of bill: </string>
+   	<string name="select_month">Select month</string>
+   	<string name="year">Year eg: 2012</string>
+   	<string name="about">About Us</string>
+   	<string name="tips">Energy Tips</string>
+   	<string-array name="month_array">
+   		<item >1</item>
+   		<item >2</item>
+   		<item >3</item>
+   		<item >4</item>
+   		<item >5</item>
+   		<item >6</item>
+   		<item >7</item>
+   		<item >8</item>
+   		<item >9</item>
+   		<item >10</item>
+   		<item >11</item>
+   		<item >12</item>
+   	</string-array>
+   	<string name="select_people">Select number of people</string>
+   	<string-array name="people_array">
+   		<item >1</item>
+   		<item >2</item>
+   		<item >3</item>
+   		<item >4</item>
+   		<item >5</item>
+   	</string-array>
+   	   	
+</resources>
